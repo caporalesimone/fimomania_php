@@ -1,0 +1,34 @@
+/* Riquadro che contiene il menu */
+#menu {
+	padding: 0px;
+	background-color: #EEEEEE;
+	font-size: 90%;
+	}
+/* Link nel menu */
+#menu a {
+	color: #006699;
+	text-decoration: none;
+	padding: 2px 0px 2px 10px;
+    border-bottom: 1px solid #CCCCCC;
+	}
+
+/* Mouse su un link della voce di menu */
+#menu a:hover {
+	background-color: #DDDDDD;
+	/*color: #0099FF;*/
+	color: #800000;
+	}
+
+
+#menu ul a:link, #menu ul a:visited {display: block;}
+#menu ul {list-style: none; margin: 0; padding: 0;}
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#menu li {border-bottom: 1px solid #EEE;}
+/* fix for browsers that don't need the hack */
+html>body #menu li {border-bottom: none;}
+
+/* Posizionamento centrale del contatore fankounter */
+.fankounter {
+  padding-top: 3px;
+  text-align: center;
+}

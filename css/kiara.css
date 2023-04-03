@@ -1,0 +1,123 @@
+﻿/* Generico testo nel body */
+body {
+  font-family: "Times New Roman", Verdana, Arial, Helvetica;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Generico link */
+a:link {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1C1FA3;
+}
+
+/* Generico link già visitato */
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+  color: #1C1FA3;
+}
+
+/* Mouse su un generico link */
+a:hover, a:active {
+  text-decoration: underline;
+  color: #1C1FA3;
+}
+
+/* Questa è la barra con il titolo del sito FIMOMANIA BY KIARA*/
+.top_title {
+  padding:3px;
+  background-color: #A1D4F2;
+  border-bottom: 1px solid #CCC;  /* Linea colorata sotto la sezione */
+}
+
+/* Testo del copyright */
+.copyright {
+  padding: 2px;
+  border-top: 1px solid #CCC;
+  font-size: 70%;
+  color: #CCCCCC;
+}
+
+/* Cella che contiene il menu principale */
+.table_menu {
+  border-right: 1px solid #CCC;
+  vertical-align: top;
+  background-color: #EEEEEE;
+}
+
+/* Formattazione del bottone flat (dettaglio) nella pagina dei thumbnails */
+a.tryitbtn,a.tryitbtn:link,a.tryitbtn:visited,a.showbtn,a.showbtn:link,a.showbtn:visited
+{
+  display:block;
+  color:#FFFFFF;
+  background-color:#98bf21;
+  font-weight:bold;
+  font-size:11px;
+  width:106px;
+  text-align:center;
+  padding: 0px;
+  padding-top:4px;
+  padding-bottom:4px;
+  border:1px solid #ffffff;
+  outline:1px solid #98bf21;
+
+  text-decoration:none;
+  margin-left:1px;
+  margin-top:3px;
+  font-family:verdana,helvetica,arial,sans-serif;
+
+}
+
+a.tryitbtn:hover,a.tryitbtn:active,a.showbtn:hover,a.showbtn:active
+{
+  background-color:#7A991A;
+}
+
+/* Barra sotto il titolo con il link di login, logout, etc.. */
+  /*border-bottom: 1px solid #CCCCCC;*/
+#top_link {
+  padding: 0px;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #CCCCCC;
+  font-size: 80%;
+  text-align: right;
+  color: #006699;
+}
+
+#top_link b {
+ /*font-size: 80%; */
+  color: #006699;
+  font-weight: bold;
+  font-family:verdana,helvetica,arial,sans-serif;
+}
+
+/* Colonna a destra con il banner verticale grosso */
+#banner_dx {
+  vertical-align: top;
+  border-left: 1px solid #CCCCCC;
+  /*padding-left: 1px; */
+  /*background-color: #EEEEEE;*/
+}
+
+/* Finestra in cui si indica che il login è fallito a causa di username
+   o password errati */
+#error_box {
+  width:520px;
+  padding-bottom:10px;
+  padding-top:10px;
+  border:1px solid #FF0000;
+  margin-top:50px;
+  background-color: #FFFFD2;
+  font-family:"Times New Roman", Verdana, Arial, Helvetica;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+/* Titolo della finestra in bold */
+#error_box b{
+  color: red;
+  font: bold large 'trebuchet ms',helvetica,sans-serif;
+}
+

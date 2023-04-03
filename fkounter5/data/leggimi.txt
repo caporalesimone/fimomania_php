@@ -1,0 +1,2 @@
+per resettare il contatore cancellare il file
+data_fimomania.php e ricrearne uno completamente vuoto

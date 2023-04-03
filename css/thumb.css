@@ -1,0 +1,65 @@
+﻿
+/* Parte centrale della pagina (body) */
+.thumb_body{
+  padding:3px;
+}
+
+/* Nome della categoria */
+.nome_categoria{
+  font-size: 30px;
+  font-weight: bold;
+  /*color: #FF6600;*/
+  color: #FF0080;
+  font-family:verdana,helvetica,arial,sans-serif;
+  padding-left: 3px;
+  padding-bottom: 15px; /* Spazio tra il titolo e la prima foto*/
+}
+
+/* Titolo di un prodotto nella thumb */
+.thumb_product_title{
+  font-size: 110%;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+  font-family:verdana,helvetica,arial,sans-serif;
+}
+
+/* Testo descrittivo di un prodotto nella thumb */
+.thumb_product_text{
+  font-size:80%;
+  text-align: justify;
+  color: #000000;
+}
+
+/* Prezzo di un prodotto nella thumb */
+.thumb_product_price{
+  font-size: 16px;
+  text-align: left;
+  font-weight: bold;
+  color: #FF0000;
+  font-family:verdana,helvetica,arial,sans-serif;
+}
+
+/* Formattazione del bottone flat (dettaglio) nella pagina dei thumbnails */
+a.tryitbtn,a.tryitbtn:link,a.tryitbtn:visited,a.showbtn,a.showbtn:link,a.showbtn:visited {
+  display:block;
+  color:#FFFFFF;
+  background-color:#98bf21;
+  font-weight:bold;
+  font-size:11px;
+  width:106px;
+  text-align:center;
+  padding: 0px;
+  padding-top:4px;
+  padding-bottom:4px;
+  border:1px solid #ffffff;
+  outline:1px solid #98bf21;
+  text-decoration:none;
+  margin-left:1px;
+  margin-top:3px;
+  font-family:verdana,helvetica,arial,sans-serif;
+}
+
+a.tryitbtn:hover,a.tryitbtn:active,a.showbtn:hover,a.showbtn:active {
+  background-color:#7A991A;
+}

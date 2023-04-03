@@ -1,0 +1,6 @@
+<!-- Banner quadrato piccolo, script di Altervista -->
+<script type="text/javascript">
+//<![CDATA[
+document.write('<s'+'cript type="text/javascript" src="http://ad.altervista.org/js.ad/size=125X125/r='+new Date().getTime()+'"><\/s'+'cript>');
+//]]>
+</script>

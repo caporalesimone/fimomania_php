@@ -1,0 +1,82 @@
+/* Tabella che contiene il body della pagina */
+.table_body td{
+  vertical-align:top;
+  padding: 10px;
+}
+
+/* Immagine thumbnail del prodotto */
+.table_body td.product_thumb   {
+   vertical-align: middle;
+   text-align: center;
+}
+
+/* Nome del prodotto. Versione grande che compare in alto */
+.product_name_big {
+  /*font-size:20px;
+  text-align: left;
+  font-weight: bold;
+  font-family:verdana,arial,sans-serif;
+  color:#cc0000;
+  padding-bottom: 20px;*/
+
+  font-size: 30px;
+  font-weight: bold;
+  color: #FF0080;
+  font-family:verdana,helvetica,arial,sans-serif;
+  padding-left: 3px;
+  padding-bottom: 15px; /* Spazio tra il titolo e la prima foto*/
+
+}
+
+/* Prezzo grande in alto a destra */
+.product_big_price {
+
+  text-align: right;
+  font-size: 30px;
+  font-weight: bold;
+  color: #FF0080;
+  font-family:verdana,helvetica,arial,sans-serif;
+  padding-left: 3px;
+/*
+  font-size:25px;
+  text-align: right;
+  font-weight: bold;
+  font-family:verdana,arial,sans-serif;
+  color: #cc0000;
+*/
+}
+
+
+
+
+/* Blocco che racchiude il riassunto dei dettagli del prodotto*/
+.product_summary{
+  /*padding : 50px;*/
+}
+
+/* Testo con linea sotto */
+.product_text_line{
+  /*width:50%;*/
+  left: 50px;
+  font-size:20px;
+  font-weight: bold;
+  color:#FF0080; /*#cc0000;*/
+  border-bottom:1px solid #003090;
+  font-family:verdana,arial,sans-serif;
+  text-align: center;
+}
+
+.product_descrizione {
+  padding: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family:verdana,arial,sans-serif;
+}
+
+.product_descrizione_prezzo {
+  padding: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family:verdana,arial,sans-serif;
+  color: #cc0000;
+}
